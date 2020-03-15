@@ -1,0 +1,52 @@
+body{
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Baloo Chettan 2', cursive;
+  text-align: left;
+  color: #443235;
+  background-color: #fff;
+}
+
+.heading{
+  font-size: 30px;
+  margin: 0 0 -10px 0;
+}
+
+p {
+  font-size: 10px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+input {
+	font-size: 20px;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    color: #443235;
+}
+
+button:hover,
+button:focus {
+  background-color: #fff;
+  color: #443235;
+  text-decoration: underline;
+}
+
+#calc {
+  background-color: #6bc75a;
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+    font-size: 13px;
+}

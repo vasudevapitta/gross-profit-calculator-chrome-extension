@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="gross profit margin calculator">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gross Profit Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Montserrat|Open+Sans&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+        <div class="input-group col-sm-4 offset-sm-4">
+          <p class="heading">Price Calculator</p>
+        </div>
+        
+        <form action="#">
+
+        <div class="input-group col-sm-4 offset-sm-4 element">
+          <span class="input-group-addon"><label for="cost">Cost $</label></span>
+          <input type="number" autofocus aria-label="enter cost price" class="form-control" placeholder="Enter Amount" id="cost" pattern = "[0-9]" onkeypress="return isNumberKey(event)" required>
+          <span class="input-group-addon"></span>
+        </div>
+
+        <div class="input-group col-sm-4 offset-sm-4 element">
+          <span class="input-group-addon"><label for="margin">Gross margin %
+          </label></span>
+          <input type="number" class="form-control" placeholder="Enter Percent" aria-label="enter gross profit percentage" id="margin" onkeypress="return isNumberKey(event)" required>
+          <span class="input-group-addon"></span>
+        </div>
+
+        <div class="col-sm-4 offset-sm-4 element buttons">
+        <button type="button" class="btn btn-default navbar-btn" id="clear">CLEAR</button>
+        <button type="submit" class="btn btn-default navbar-btn" id="calc">CALCULATE</button>
+        </div>
+        </form>
+
+        <div class="input-group col-sm-4 offset-sm-4 element">
+          <span class="input-group-addon"><label for="output">Selling price $</label></span>
+          <input type="text" class="form-control" placeholder="Amount" aria-label="your selling price" id="output">
+          <span class="input-group-addon"></span>
+        </div>
+
+        <p>Developed by <a href='https://www.linkedin.com/in/vasudevapitta' target='_blank' title='Connect on Linkedin' rel="noopener">Vasudeva Pitta</a></p>
+<script src="js/popup.js"></script>
+</body>
+</html>
